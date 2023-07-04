@@ -1,0 +1,25 @@
+body {
+  background-color: #f2f2f2;
+}
+
+#maze {
+  border-collapse: collapse;
+}
+
+#maze td {
+  width: 10px;
+  height: 10px;
+  border: 1px solid #ccc;
+}
+
+#maze td.start {
+  background-color: #00c853;
+}
+
+#maze td.end {
+  background-color: #f50057;
+}
+
+#maze td.path {
+  background-color: #6200ea;
+}
