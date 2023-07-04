@@ -11,14 +11,18 @@ body {
   height: 100vh;
 }
 
+.container {
+  margin-bottom: 20px;
+}
+
 #maze {
   border-collapse: collapse;
-  margin-top: auto;
+  margin-bottom: 40px;
 }
 
 #maze td {
-  width: 10px;
-  height: 10px;
+  width: 15px;
+  height: 15px;
   border: 1px solid #ff79c6;
 }
 
