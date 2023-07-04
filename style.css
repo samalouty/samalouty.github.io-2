@@ -17,13 +17,13 @@ body {
 
 #maze {
   border-collapse: collapse;
-  margin-bottom: 40px;
+  border: 2px solid #ff79c6;
 }
 
 #maze td {
   width: 15px;
   height: 15px;
-  border: 1px solid #ff79c6;
+  background-color: black;
 }
 
 #maze td:hover {
